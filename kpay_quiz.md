@@ -20,11 +20,11 @@ create an api for merchant seller and selling report.
 ## APIs
 | Name                 | Method | Endpoint                          |
 |----------------------|--------|-----------------------------------|
-| Register Merchant    | POST   | /merchant/register                |
-| Merchant Information | GET    | /merchant/:id                     |
-| Update Merchant      | POST   | /merchant/:id                     |
-| List All Products    | GET    | /merchant/:id/products            |
-| Add Product          | POST   | /merchant/:id/product             |
+| Register Merchant    | POST   | /merchant/register                | X
+| Merchant Information | GET    | /merchant/:id                     | X
+| Update Merchant      | POST   | /merchant/:id                     | X
+| List All Products    | GET    | /merchant/:id/products            | X
+| Add Product          | POST   | /merchant/:id/product             | X
 | Update Product       | POST   | /merchant/:id/product/:product_id |
 | Remove Product       | DELETE | /merchant/:id/product/:product_id |
 | Sell Reports         | POST   | /merchant/:id/report              |
